@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(233, 233, 233);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title{
+    margin-top: 1rem;
+    font-size: 2.7rem;
+}
+
+.sub-title{
+    margin-top: 1rem;
+}
+
+.svg{
+    height: auto;
+}
+
+.tooltip{
+    width: auto;
+    position: absolute;
+    height: auto;
+    background-color: rgba(255, 255, 204, 0.9);
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.6);
+  border: 0px;
+  border-radius: 2px;
+  pointer-events: none;
+  padding: 10px;
+}
+
+.counties{
+    fill: none;
+}
+
+.states {
+    fill: none;
+    stroke: #fff;
+    stroke-linejoin: round;
+  }
+
+@media  screen and (max-width:600px) {
+    .container{
+        scale: 0.5;
+         position: relative; 
+        left: 10%; 
+        top: -20%;
+    }
+}
+@media  screen and (max-width:500px) {
+    .container{
+        scale: 0.5;
+         position: relative; 
+        left: 20%; 
+        top: -20%;
+    }
+}
+@media  screen and (max-width:400px) {
+    .container{
+        scale: 0.5;
+         position: relative; 
+        left: 30%; 
+        top: -20%;
+    }
+}
+@media  screen and (max-width:350px) {
+    .container{
+        scale: 0.4;
+         position: relative; 
+        left: 30%; 
+        top: -20%;
+    }
+}
+@media  screen and (max-width:280px) {
+    .container{
+        scale: 0.4;
+         position: relative; 
+        left: 40%; 
+        top: -20%;
+    }
+}
+@media  screen and (max-width:250px) {
+    .container{
+        scale: 0.3;
+         position: relative; 
+        left: 30%; 
+        top: -20%;
+    }
+}
+@media  screen and (max-width:220px) {
+    .container{
+        scale: 0.3;
+         position: relative; 
+        left: 35%; 
+        top: -20%;
+    }
+}
